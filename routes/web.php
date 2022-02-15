@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
+/* Refactoring code for the project */
+
 Route::get('/home', 'HomeController@index')->name('home');
